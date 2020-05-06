@@ -66,9 +66,15 @@ const TaskList = props => {
 
 
     const getQuestion = () => {
-        axios.get("https://www.rrrather.com/botapi")
+        axios.get("https://www.rrrather.com/botapi", {
+            headers: {
+              'Access-Control-Allow-Origin': true
+            }
+          })
             .then(res=>setRather(res.data))
             .catch(err=>console.log(err))
+
+
 
     }
     
@@ -127,7 +133,7 @@ const TaskList = props => {
                     return <Task key={task.id} task={task}/>
                 }): "loading"}
             </CardContainer>
-            <Qdiv>
+            {/* <Qdiv>
                 <Button onClick={getQuestion}>Get a Question</Button>
                 {rather && <QCard>
                     <h4>{rather.title}</h4>
@@ -135,7 +141,7 @@ const TaskList = props => {
                     <p>OR</p>
                     <p>{rather.choiceb}</p>
                 </QCard>}
-            </Qdiv>
+            </Qdiv> */}
         </div>
         
     )
