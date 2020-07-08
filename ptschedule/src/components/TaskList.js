@@ -41,10 +41,11 @@ const QCard = styled.div`
 `;
 
 const Button = styled.div`
-    background: white;
+    background: #08252F;
+    color: white;
     margin: 10% auto;
-    width: 60%;
-    padding: 4% 0;
+    width: 10%;
+    padding: 1% 0;
     // border: none;
     cursor: pointer;
     box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.3);
@@ -133,18 +134,14 @@ const TaskList = props => {
                     return <Task key={task.id} task={task}/>
                 }): "loading"}
             </CardContainer>
-            {/* <Qdiv>
-                <Button onClick={getQuestion}>Get a Question</Button>
-                {rather && <QCard>
-                    <h4>{rather.title}</h4>
-                    <p>{rather.choicea}</p>
-                    <p>OR</p>
-                    <p>{rather.choiceb}</p>
-                </QCard>}
-            </Qdiv> */}
+            <Button onClick={()=>{
+                localStorage.clear();
+                window.location.reload()
+            }}>Reset Tasks</Button>
         </div>
         
     )
 }
 
 export default TaskList
+

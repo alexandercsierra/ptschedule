@@ -25,9 +25,12 @@ function App() {
     // if (time === '1:32 AM'){
     //   console.log("cleared");
     // }
+    localStorage.setItem('reset', false)
     const dateArray = moment().format('MMMM D').split(" ");
     setCurrentDate(dateArray)
     setCurrentDay(moment().format('dddd'))
+
+    
     
 
   }, [currentDay, reload])
