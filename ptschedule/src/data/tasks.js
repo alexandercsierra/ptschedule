@@ -18,12 +18,12 @@ const tasks = {
         {
             id: 3,
             time: '6:15PM',
-            activity: 'Module 1:1s to review B Week Thursday\'s project'
+            activity: 'Module 1:1s to review Sprint Challenge'
         },
         {
             id: 4,
-            time: '6:15PM',
-            activity: 'Take start of day attendance'
+            time: '7:00PM',
+            activity: 'Start of Day Attendance Due'
         },
         {
             id: 5,
@@ -59,8 +59,8 @@ const tasks = {
         },
         {
             id: 11,
-            time: '6:45PM',
-            activity: 'Take start of day attendance'
+            time: '7:00PM',
+            activity: 'Start of Day Attendance Due'
         },
         {
             id: 12,
@@ -75,11 +75,6 @@ const tasks = {
     ],
     aWednesday: [
         {
-            id: 14,
-            time: '5:00PM',
-            activity: 'After Hours'
-        },
-        {
             id: 15,
             time: '5:30PM',
             activity: 'TL Standup'
@@ -87,13 +82,14 @@ const tasks = {
         {
             id: 16,
             time: '6:00PM',
-            activity: 'Take start of day attendance'
+            activity: 'Project Time'
         },
         {
             id: 17,
-            time: '6:00PM',
-            activity: 'Project Time'
+            time: '7:00PM',
+            activity: 'Start of Day Attendance Due'
         },
+        
         {
             id: 18,
             time: '8:30PM',
@@ -138,8 +134,8 @@ const tasks = {
         },
         {
             id: 26,
-            time: '6:45PM',
-            activity: 'Take start of day attendance'
+            time: '7:00PM',
+            activity: 'Start of Day Attendance Due'
         },
         {
             id: 27,
@@ -176,7 +172,7 @@ const tasks = {
         {
             id: 32,
             time: '6:15PM',
-            activity: 'Module 1:1s begin to review A week Monday\'s project'
+            activity: 'Module 1:1s begin to review A week Wednesday\'s project'
         },
         {
             id: 33,
@@ -213,7 +209,7 @@ const tasks = {
         {
             id: 39,
             time: '9:15AM',
-            activity: 'Module 1:1s begin to review A week Monday\'s project'
+            activity: 'Module 1:1s begin to review A week Wednesday\'s project'
         },
         {
             id: 40,
@@ -245,17 +241,17 @@ const tasks = {
         {
             id: 45,
             time: '6:00PM',
-            activity: 'Take start of day attendance'
-        },
-        {
-            id: 46,
-            time: '6:00PM',
             activity: 'Project Time'
         },
         {
-            id: 47,
+            id: 46,
             time: '6:15PM',
-            activity: 'Module 1:1s begin to review A week Monday\'s project'
+            activity: 'Module 1:1s begin to review A week Wednesday\'s project'
+        },
+        {
+            id: 47,
+            time: '7:00PM',
+            activity: 'Start of Day Attendance Due'
         },
         {
             id: 48,
@@ -296,8 +292,8 @@ const tasks = {
         },
         {
             id: 55,
-            time: '6:45PM',
-            activity: 'Take start of day attendance'
+            time: '7:00PM',
+            activity: 'Start of Day Attendance Due'
         },
         {
             id: 56,
@@ -324,17 +320,17 @@ const tasks = {
         {
             id: 60,
             time: '6:00PM',
-            activity: 'Take start of day attendance'
-        },
-        {
-            id: 61,
-            time: '6:00PM',
             activity: 'Project Time'
         },
         {
-            id: 62,
+            id: 61,
             time: '6:15PM',
-            activity: 'Module 1:1s begin to review A week Thursday\'s project'
+            activity: 'Module 1:1s begin to review A week Fifth Day\'s project'
+        },
+        {
+            id: 62,
+            time: '7:00PM',
+            activity: 'Start of Day Attendance Due'
         },
         {
             id: 63,
@@ -375,8 +371,8 @@ const tasks = {
         },
         {
             id: 70,
-            time: '6:45PM',
-            activity: 'Take start of day attendance'
+            time: '7:00PM',
+            activity: 'Start of Day Attendance Due'
         },
         {
             id: 71,
@@ -403,17 +399,17 @@ const tasks = {
         {
             id: 75,
             time: '6:00PM',
-            activity: 'Take start of day attendance'
-        },
-        {
-            id: 76,
-            time: '6:00PM',
             activity: 'Project Time'
         },
         {
-            id: 77,
+            id: 76,
             time: '6:15PM',
-            activity: 'Module 1:1s for B Week Monday\'s project'
+            activity: 'Module 1:1s for B Week Tuesday\'s project'
+        },
+        {
+            id: 77,
+            time: '7:00PM',
+            activity: 'Start of Day Attendance Due'
         },
         {
             id: 78,

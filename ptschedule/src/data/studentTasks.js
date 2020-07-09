@@ -6,7 +6,11 @@ const tasks = {
         },
         {
             time: '6:15PM',
-            activity: 'Module 1:1s to review B Week Thursday\'s project'
+            activity: 'Module 1:1s to review Sprint Challenge'
+        },
+        {
+            time: '7:00PM',
+            activity: 'Attendance Due'
         }
     ],
     aTuesday: [
